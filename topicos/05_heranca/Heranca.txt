@@ -1,0 +1,70 @@
+
+====================================================================================================
+CURSO ORIENTAÇÃO A OBJETOS PYTHON - HERANÇA
+====================================================================================================
+
+Descrição
+----------------------------------------------------------------------------------------------------
+A herança é um recurso da orientação a objetos que permite que uma classe herde atributos e métodos
+de outra classe.
+
+
+Cenário para aplicação da herança
+----------------------------------------------------------------------------------------------------
+
+Dados do Cliente
+- Nome, Endereço, CPF
+
+Dados do Fornecedor
+- Nome, Endereço, CNPJ
+
+
+No levantamento acima observa-se que alguns dados se repetem para Clientes e Fornecedores. Pode-se
+aplicar a herança para remover a duplicidade dos dados, diminuindo a complexidade das classes e 
+facilitando a implementação do código.
+
+Dados Pessoa
+- Nome, Endereço
+
+Dados Cliente (é uma pessoa)
+- CPF
+
+Dados Fornecedor (é uma pessoa)
+- CNPJ
+
+
+Aplicando a herança
+----------------------------------------------------------------------------------------------------
+
+class Pessoa:
+
+  def __init__(self):
+    self.nome = ""
+
+class PessoaFisica(Pessoa):
+
+  def __init__(self):
+    self.cpf = ""
+
+class PessoaJuridica(Pessoa):
+
+  def __init__(self):
+    self.cnpj = ""
+
+pf = PessoaFisica()
+pf.nome = "Fulano da Silva"
+pf.cpf = "304.349.920-46"
+print(f"{pf.nome}, {pf.cpf}")
+
+pj = PessoaJuridica()
+pj.nome = "Empresa XYZ Ltda"
+pj.cnpj = "93.064.305/0001-48"
+print(f"{pj.nome}, {pj.cnpj}")
+
+
+Benefícios da herança
+----------------------------------------------------------------------------------------------------
+- Redundância de dados
+- Implementação
+- Manutenção
+

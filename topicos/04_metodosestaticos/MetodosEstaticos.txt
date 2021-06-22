@@ -1,0 +1,26 @@
+
+====================================================================================================
+CURSO ORIENTAÇÃO A OBJETOS PYTHON - MÉTODOS ESTATICOS
+====================================================================================================
+
+Descrição
+----------------------------------------------------------------------------------------------------
+Métodos estáticos são métodos que não necessitam que a classe seja instanciada para serem utilizados.
+
+ 
+Criando métodos estáticos
+----------------------------------------------------------------------------------------------------
+
+class AreasFiguras:
+
+  @staticmethod
+  def calcularAreaQuadrado(lado):
+    return lado * lado
+
+  @staticmethod
+  def calcularAreaTriangulo(base, altura):
+    return (base * altura) / 2
+
+areaQuadrado = AreasFiguras.calcularAreaQuadrado(30)
+print(areaQuadrado)
+

@@ -1,0 +1,13 @@
+001,  Beltrano Cunha, 72.38, Aprovado
+002,  Siclano Pereira, 55.95, Recuperação
+003,  Fulano da Silva, 93.18, Aprovado
+004,  Acrópolis da Penha, 44.80, Recuperação
+006,  Bino Alvarenga, 54.42, Recuperação
+007,  Goman da Silva, 53.25, Recuperação
+008,  Sincom Gomes, 60.92, Recuperação
+009,  Beltrana Gomes da Silva, 87.47, Aprovado
+011,  Fulana Pedrosa, 72.25, Aprovado
+012,  Duola Andrade, 36.55, Reprovado
+013,  Katrina Munhoz, 96.92, Aprovado
+014,  Vaz Castro, 69.70, Recuperação
+015,  Suli Mascarenhas, 59.00, Recuperação
