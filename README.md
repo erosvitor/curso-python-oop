@@ -1,7 +1,7 @@
 # PythonOopCurso
 
 ## Descrição
-O **PythonOopCurso** é um projeto em forma de curso que reúne tópicos sobre a programação orientada a objetos na linguagem Python.
+Projeto curso que reúne tópicos sobre a programação orientada a objetos na linguagem Python.
 
 O projeto contempla teoria, exemplos, exercícios e respostas. É ideal para ser utilizado por professores e instrutores da linguagem Python.
 
