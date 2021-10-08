@@ -1,5 +1,5 @@
 ## Sobre
-O projeto é um curso que ensina a programação orientada a objetos na linguagem Python.
+O projeto é um curso que ensina os fundamentos da programação orientada a objetos na linguagem Python.
 
 O curso contempla teoria, exemplos, exercícios e respostas. É ideal para ser utilizado por professores e instrutores da linguagem Python.
 
